@@ -1,0 +1,42 @@
+@font-face {
+    font-family: Karate;
+    src: url('../font/Karate.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+/* @font-face {
+    font-family: Ming;
+    src: url('../font/MingImperial.TTF') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+} */
+@font-face {
+    font-family: LED1;
+    src: url('../font/7LED.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: LED2;
+    src: url('../font/7LEDitalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: LED3;
+    src: url('../font/ledsled.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: LED4;
+    src: url('../font/DS-DIGII.TTF') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: LED5;
+    src: url('../font/PixelLCD-7.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
