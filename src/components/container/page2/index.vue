@@ -1,42 +1,31 @@
 <template>
-  <div class="hello">
-    <h1>Hello,{{globalConstant.AUTHOR.name}}!</h1>
+  <div class="page2">
+    <h1>This is page2!</h1>
     <a class="btn" @click="toPage1">点击进入容器组件page1</a>
-    <demo-clock></demo-clock>
   </div>
 </template>
 
 <script>
-import DemoClock from '@/examples/DemoMyClock'
 export default {
-  name: 'HelloWorld',
+  name: 'page2',
   data () {
     return {
-      msg: 'Welcome to Your Vue.js App'
+      currentTime: ''
     }
-  },
-  components: {
-    DemoClock
   },
   methods: {
     toPage1 () {
-      console.log("You clicked it!")
       this.$router.push("/page1");
     }
-  },
-  mounted () {
   }
 }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped lang="less">
-  .hello {
-    text-align: center;
-    h1 {
-      font-family: Karate;
-      margin: 50px 0;
-    }
+<style lang="less" scoped>
+  .page2 {
+    background: @page2Color;
+    height: 100%;
+    width: 100%;
     .btn {
       display: inline-block;
       color: white;

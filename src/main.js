@@ -8,9 +8,13 @@ import router from './router'
 const globalConstant = require('@/assets/js/constant')
 Vue.prototype.globalConstant = globalConstant
 
-// 引入并挂载全局“功能函数文件”
+// 引入并挂载全局“函数文件”
 const globalUtil = require('@/assets/js/util')
 Vue.prototype.globalUtil = globalUtil
+
+// 引入并挂载全局“网络请求配置文件”
+const globalUrl = require('@/assets/js/url')
+Vue.prototype.globalUrl = globalUrl
 
 Vue.config.productionTip = false
 
