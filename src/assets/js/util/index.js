@@ -1,7 +1,8 @@
 /**
  * Created by Breaker-93 on 2018/8/13.
  */
-module.exports = {
+const ajax = require('./ajax')
+const res = {
   /**
    * @description: 将时间戳转换为日期字符串(转换两种)
    * @param: timestamp[String] 时间戳
@@ -23,3 +24,5 @@ module.exports = {
     }
   }
 }
+res.ajax = ajax
+module.exports = res

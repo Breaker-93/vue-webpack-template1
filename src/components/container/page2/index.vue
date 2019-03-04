@@ -17,6 +17,14 @@ export default {
     toPage1 () {
       this.$router.push("/page1");
     }
+  },
+  mounted () {
+    console.log("page2")
+    this.globalUtil.ajax.get(this.globalApi.module1.getMobule1Info, {}, (res) => {
+      console.log(res)
+    }, (error) => {
+      console.log(error)
+    })
   }
 }
 </script>
